@@ -128,6 +128,8 @@
 		60CE5E0721655611005764A3 /* .codebeatignore in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8021655611005764A3 /* .codebeatignore */; };
 		60CE5E0821655611005764A3 /* CatCrypto-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8121655611005764A3 /* CatCrypto-Logo.png */; };
 		60CE5E0921655611005764A3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8221655611005764A3 /* .travis.yml */; };
+		60CE5E1B216564DD005764A3 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5E1A216564DD005764A3 /* Utils.swift */; };
+		60CE5E1D21656CA7005764A3 /* KeyDerivation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5E1C21656CA7005764A3 /* KeyDerivation.swift */; };
 		EAD5CEF4F460CAB9673874A1 /* Pods_KDBXKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8320B2DAB729A93E9D7407 /* Pods_KDBXKitTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -319,6 +321,8 @@
 		60CE5D8021655611005764A3 /* .codebeatignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .codebeatignore; sourceTree = "<group>"; };
 		60CE5D8121655611005764A3 /* CatCrypto-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CatCrypto-Logo.png"; sourceTree = "<group>"; };
 		60CE5D8221655611005764A3 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		60CE5E1A216564DD005764A3 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		60CE5E1C21656CA7005764A3 /* KeyDerivation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyDerivation.swift; sourceTree = "<group>"; };
 		828EF313E3388E5E472F53C1 /* Pods_KDBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AAE40E1A0C0CBF08C739E65 /* Pods-KDBXKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDBXKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KDBXKitTests/Pods-KDBXKitTests.debug.xcconfig"; sourceTree = "<group>"; };
 		C94F6C038AC9E4967418D493 /* Pods-KDBXKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDBXKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KDBXKit/Pods-KDBXKit.debug.xcconfig"; sourceTree = "<group>"; };
@@ -775,6 +779,8 @@
 			isa = PBXGroup;
 			children = (
 				60CE5B0A216552D1005764A3 /* Argon2 */,
+				60CE5E1A216564DD005764A3 /* Utils.swift */,
+				60CE5E1C21656CA7005764A3 /* KeyDerivation.swift */,
 			);
 			path = Crypto;
 			sourceTree = "<group>";
@@ -1134,6 +1140,7 @@
 				60CE5DD821655611005764A3 /* ArrayExtension.swift in Sources */,
 				60CE5DDF21655611005764A3 /* Argon.swift in Sources */,
 				60CE5DDA21655611005764A3 /* StringExtension.swift in Sources */,
+				60CE5E1D21656CA7005764A3 /* KeyDerivation.swift in Sources */,
 				60CE5E0021655611005764A3 /* EnumDescription.swift in Sources */,
 				60CE5DE021655611005764A3 /* KeccakP-1600-reference.c in Sources */,
 				60CE5DF421655611005764A3 /* core.c in Sources */,
@@ -1143,6 +1150,7 @@
 				60CE5DF721655611005764A3 /* blake2b.c in Sources */,
 				60CE5DA221655611005764A3 /* SHATests.swift in Sources */,
 				60CE5DD921655611005764A3 /* Crypto.swift in Sources */,
+				60CE5E1B216564DD005764A3 /* Utils.swift in Sources */,
 				60CE5E0321655611005764A3 /* Hashing.swift in Sources */,
 				60CE5DFE21655611005764A3 /* md6_compress.c in Sources */,
 				60CE5DE521655611005764A3 /* KeccakSpongeWidth1600.c in Sources */,
