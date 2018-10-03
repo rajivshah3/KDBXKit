@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "KDBXKit"
-  s.version      = "0.0.0"
+  s.version      = "0.0.1"
   s.summary      = "A framework for importing, exporting, and creating KeePass databases"
 
   s.description  = <<-DESC
