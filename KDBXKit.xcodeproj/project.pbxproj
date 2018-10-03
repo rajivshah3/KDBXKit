@@ -90,6 +90,7 @@
 		60CE5B0821654761005764A3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				60CE5B0A216552D1005764A3 /* Argon2 */,
 				60CE5B0921654772005764A3 /* Core */,
 			);
 			path = Sources;
@@ -100,6 +101,13 @@
 			children = (
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		60CE5B0A216552D1005764A3 /* Argon2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Argon2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

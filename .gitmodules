@@ -1,0 +1,4 @@
+[submodule "Sources/Argon2/CatCrypto"]
+	path = Sources/Argon2/CatCrypto
+	url = https://github.com/rajivshah3/CatCrypto
+	branch = raw-hash
