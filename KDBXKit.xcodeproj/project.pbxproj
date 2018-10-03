@@ -10,6 +10,123 @@
 		60CE5AF82165413F005764A3 /* KDBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CE5AEE2165413E005764A3 /* KDBXKit.framework */; };
 		60CE5AFD2165413F005764A3 /* KDBXKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5AFC2165413F005764A3 /* KDBXKitTests.swift */; };
 		60CE5AFF2165413F005764A3 /* KDBXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5AF12165413E005764A3 /* KDBXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60CE5D9521655611005764A3 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CE821655610005764A3 /* .swift-version */; };
+		60CE5D9621655611005764A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CEA21655610005764A3 /* LaunchScreen.storyboard */; };
+		60CE5D9721655611005764A3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5CEB21655610005764A3 /* RootViewController.swift */; };
+		60CE5D9821655611005764A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CEC21655610005764A3 /* Assets.xcassets */; };
+		60CE5D9921655611005764A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CED21655610005764A3 /* Main.storyboard */; };
+		60CE5D9A21655611005764A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5CEF21655610005764A3 /* AppDelegate.swift */; };
+		60CE5D9B21655611005764A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CF021655610005764A3 /* Info.plist */; };
+		60CE5D9C21655611005764A3 /* doc-build.sh in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CF121655610005764A3 /* doc-build.sh */; };
+		60CE5D9D21655611005764A3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CF221655610005764A3 /* LICENSE */; };
+		60CE5D9E21655611005764A3 /* CatCrypto.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CF321655610005764A3 /* CatCrypto.podspec */; };
+		60CE5D9F21655611005764A3 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CF421655610005764A3 /* .swiftlint.yml */; };
+		60CE5DA021655611005764A3 /* MessageDigestCryptoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5CF921655611005764A3 /* MessageDigestCryptoTests.swift */; };
+		60CE5DA121655611005764A3 /* ArgonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5CFA21655611005764A3 /* ArgonTests.swift */; };
+		60CE5DA221655611005764A3 /* SHATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5CFB21655611005764A3 /* SHATests.swift */; };
+		60CE5DA321655611005764A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CFC21655611005764A3 /* Info.plist */; };
+		60CE5DA421655611005764A3 /* Structs.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CFE21655611005764A3 /* Structs.html */; };
+		60CE5DA521655611005764A3 /* Enums.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5CFF21655611005764A3 /* Enums.html */; };
+		60CE5DA621655611005764A3 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0021655611005764A3 /* index.html */; };
+		60CE5DA721655611005764A3 /* search.json in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0121655611005764A3 /* search.json */; };
+		60CE5DA821655611005764A3 /* highlight.css in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0321655611005764A3 /* highlight.css */; };
+		60CE5DA921655611005764A3 /* jazzy.css in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0421655611005764A3 /* jazzy.css */; };
+		60CE5DAA21655611005764A3 /* CatCryptoEncryptResult.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0621655611005764A3 /* CatCryptoEncryptResult.html */; };
+		60CE5DAB21655611005764A3 /* CatMD6Crypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0721655611005764A3 /* CatMD6Crypto.html */; };
+		60CE5DAC21655611005764A3 /* CatCryptoHashResult.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0821655611005764A3 /* CatCryptoHashResult.html */; };
+		60CE5DAD21655611005764A3 /* CatCCHashCrypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0921655611005764A3 /* CatCCHashCrypto.html */; };
+		60CE5DAE21655611005764A3 /* CatMD4Crypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0A21655611005764A3 /* CatMD4Crypto.html */; };
+		60CE5DAF21655611005764A3 /* CatArgon2Crypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0B21655611005764A3 /* CatArgon2Crypto.html */; };
+		60CE5DB021655611005764A3 /* CatSHA2Crypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0C21655611005764A3 /* CatSHA2Crypto.html */; };
+		60CE5DB121655611005764A3 /* CatSHA1Crypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0D21655611005764A3 /* CatSHA1Crypto.html */; };
+		60CE5DB221655611005764A3 /* CatCryptoError.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0E21655611005764A3 /* CatCryptoError.html */; };
+		60CE5DB321655611005764A3 /* CatCryptoVerifyResult.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D0F21655611005764A3 /* CatCryptoVerifyResult.html */; };
+		60CE5DB421655611005764A3 /* CatMD2Crypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1021655611005764A3 /* CatMD2Crypto.html */; };
+		60CE5DB521655611005764A3 /* CatMD5Crypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1121655611005764A3 /* CatMD5Crypto.html */; };
+		60CE5DB621655611005764A3 /* CatCryptoDecryptResult.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1221655611005764A3 /* CatCryptoDecryptResult.html */; };
+		60CE5DB721655611005764A3 /* CatSHA3Crypto.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1321655611005764A3 /* CatSHA3Crypto.html */; };
+		60CE5DB821655611005764A3 /* CatCryptoResult.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1421655611005764A3 /* CatCryptoResult.html */; };
+		60CE5DB921655611005764A3 /* jquery.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1621655611005764A3 /* jquery.min.js */; };
+		60CE5DBA21655611005764A3 /* jazzy.js in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1721655611005764A3 /* jazzy.js */; };
+		60CE5DBB21655611005764A3 /* CatArgon2Mode.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1921655611005764A3 /* CatArgon2Mode.html */; };
+		60CE5DBC21655611005764A3 /* CatMD6HashLength.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1A21655611005764A3 /* CatMD6HashLength.html */; };
+		60CE5DBD21655611005764A3 /* CatSHA3HashLength.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1B21655611005764A3 /* CatSHA3HashLength.html */; };
+		60CE5DBE21655611005764A3 /* CatSHA2HashLength.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1C21655611005764A3 /* CatSHA2HashLength.html */; };
+		60CE5DBF21655611005764A3 /* carat.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1E21655611005764A3 /* carat.png */; };
+		60CE5DC021655611005764A3 /* dash.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D1F21655611005764A3 /* dash.png */; };
+		60CE5DC121655611005764A3 /* gh.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2021655611005764A3 /* gh.png */; };
+		60CE5DC221655611005764A3 /* undocumented.json in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2121655611005764A3 /* undocumented.json */; };
+		60CE5DC321655611005764A3 /* badge.svg in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2221655611005764A3 /* badge.svg */; };
+		60CE5DC421655611005764A3 /* CatMD6Context.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2421655611005764A3 /* CatMD6Context.html */; };
+		60CE5DC521655611005764A3 /* CatSHA3Context.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2521655611005764A3 /* CatSHA3Context.html */; };
+		60CE5DC621655611005764A3 /* CatSHA2Context.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2621655611005764A3 /* CatSHA2Context.html */; };
+		60CE5DC721655611005764A3 /* CatArgon2Context.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2721655611005764A3 /* CatArgon2Context.html */; };
+		60CE5DC821655611005764A3 /* Classes.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2821655611005764A3 /* Classes.html */; };
+		60CE5DC921655611005764A3 /* CatCrypto.xml in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2A21655611005764A3 /* CatCrypto.xml */; };
+		60CE5DCA21655611005764A3 /* CatCrypto.tgz in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2B21655611005764A3 /* CatCrypto.tgz */; };
+		60CE5DCB21655611005764A3 /* CatCrypto.docset in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2C21655611005764A3 /* CatCrypto.docset */; };
+		60CE5DCC21655611005764A3 /* Protocols.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2D21655611005764A3 /* Protocols.html */; };
+		60CE5DCD21655611005764A3 /* Hashing.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D2F21655611005764A3 /* Hashing.html */; };
+		60CE5DCE21655611005764A3 /* Verification.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3021655611005764A3 /* Verification.html */; };
+		60CE5DCF21655611005764A3 /* Encryption.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3121655611005764A3 /* Encryption.html */; };
+		60CE5DD021655611005764A3 /* Contextual.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3221655611005764A3 /* Contextual.html */; };
+		60CE5DD121655611005764A3 /* Decryption.html in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3321655611005764A3 /* Decryption.html */; };
+		60CE5DD221655611005764A3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3421655611005764A3 /* README.md */; };
+		60CE5DD321655611005764A3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3521655611005764A3 /* .gitignore */; };
+		60CE5DD421655611005764A3 /* CONTRIBUTING.md in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3621655611005764A3 /* CONTRIBUTING.md */; };
+		60CE5DD521655611005764A3 /* CHANGELOG.md in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3821655611005764A3 /* CHANGELOG.md */; };
+		60CE5DD621655611005764A3 /* PULL_REQUEST_TEMPLATE.md in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3921655611005764A3 /* PULL_REQUEST_TEMPLATE.md */; };
+		60CE5DD721655611005764A3 /* ISSUE_TEMPLATE.md in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D3A21655611005764A3 /* ISSUE_TEMPLATE.md */; };
+		60CE5DD821655611005764A3 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D3D21655611005764A3 /* ArrayExtension.swift */; };
+		60CE5DD921655611005764A3 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D3E21655611005764A3 /* Crypto.swift */; };
+		60CE5DDA21655611005764A3 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D3F21655611005764A3 /* StringExtension.swift */; };
+		60CE5DDB21655611005764A3 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D4021655611005764A3 /* Helper.swift */; };
+		60CE5DDC21655611005764A3 /* CatCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D4121655611005764A3 /* CatCrypto.h */; };
+		60CE5DDD21655611005764A3 /* MessageDigest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D4321655611005764A3 /* MessageDigest.swift */; };
+		60CE5DDE21655611005764A3 /* SHA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D4421655611005764A3 /* SHA.swift */; };
+		60CE5DDF21655611005764A3 /* Argon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D4521655611005764A3 /* Argon.swift */; };
+		60CE5DE021655611005764A3 /* KeccakP-1600-reference.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D5321655611005764A3 /* KeccakP-1600-reference.c */; };
+		60CE5DE121655611005764A3 /* align.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D5421655611005764A3 /* align.h */; };
+		60CE5DE221655611005764A3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D5521655611005764A3 /* LICENSE */; };
+		60CE5DE321655611005764A3 /* KeccakSponge.inc in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D5621655611005764A3 /* KeccakSponge.inc */; };
+		60CE5DE421655611005764A3 /* SimpleFIPS202.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D5721655611005764A3 /* SimpleFIPS202.c */; };
+		60CE5DE521655611005764A3 /* KeccakSpongeWidth1600.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D5821655611005764A3 /* KeccakSpongeWidth1600.c */; };
+		60CE5DE621655611005764A3 /* KeccakP-1600-reference.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D5921655611005764A3 /* KeccakP-1600-reference.h */; };
+		60CE5DE721655611005764A3 /* KeccakSponge-common.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D5A21655611005764A3 /* KeccakSponge-common.h */; };
+		60CE5DE821655611005764A3 /* brg_endian.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D5B21655611005764A3 /* brg_endian.h */; };
+		60CE5DE921655611005764A3 /* KeccakP-1600-SnP.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D5C21655611005764A3 /* KeccakP-1600-SnP.h */; };
+		60CE5DEA21655611005764A3 /* SimpleFIPS202.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D5D21655611005764A3 /* SimpleFIPS202.h */; };
+		60CE5DEB21655611005764A3 /* KeccakSpongeWidth1600.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D5F21655611005764A3 /* KeccakSpongeWidth1600.h */; };
+		60CE5DEC21655611005764A3 /* thread.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D6121655611005764A3 /* thread.c */; };
+		60CE5DED21655611005764A3 /* blamka-round-ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D6221655611005764A3 /* blamka-round-ref.h */; };
+		60CE5DEE21655611005764A3 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D6321655611005764A3 /* core.h */; };
+		60CE5DEF21655611005764A3 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D6421655611005764A3 /* LICENSE */; };
+		60CE5DF021655611005764A3 /* ref.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D6521655611005764A3 /* ref.c */; };
+		60CE5DF121655611005764A3 /* argon2.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D6621655611005764A3 /* argon2.h */; };
+		60CE5DF221655611005764A3 /* blamka-round-opt.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D6721655611005764A3 /* blamka-round-opt.h */; };
+		60CE5DF321655611005764A3 /* encoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D6821655611005764A3 /* encoding.h */; };
+		60CE5DF421655611005764A3 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D6921655611005764A3 /* core.c */; };
+		60CE5DF521655611005764A3 /* thread.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D6A21655611005764A3 /* thread.h */; };
+		60CE5DF621655611005764A3 /* blake2.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D6B21655611005764A3 /* blake2.h */; };
+		60CE5DF721655611005764A3 /* blake2b.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D6C21655611005764A3 /* blake2b.c */; };
+		60CE5DF821655611005764A3 /* argon2.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D6E21655611005764A3 /* argon2.c */; };
+		60CE5DF921655611005764A3 /* ref.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D6F21655611005764A3 /* ref.h */; };
+		60CE5DFA21655611005764A3 /* blake2-impl.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D7021655611005764A3 /* blake2-impl.h */; };
+		60CE5DFB21655611005764A3 /* encoding.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7121655611005764A3 /* encoding.c */; };
+		60CE5DFC21655611005764A3 /* md6_mode.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7321655611005764A3 /* md6_mode.c */; };
+		60CE5DFD21655611005764A3 /* md6.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5D7421655611005764A3 /* md6.h */; };
+		60CE5DFE21655611005764A3 /* md6_compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7521655611005764A3 /* md6_compress.c */; };
+		60CE5DFF21655611005764A3 /* Decryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7821655611005764A3 /* Decryption.swift */; };
+		60CE5E0021655611005764A3 /* EnumDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7921655611005764A3 /* EnumDescription.swift */; };
+		60CE5E0121655611005764A3 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7A21655611005764A3 /* Verification.swift */; };
+		60CE5E0221655611005764A3 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7B21655611005764A3 /* Encryption.swift */; };
+		60CE5E0321655611005764A3 /* Hashing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7C21655611005764A3 /* Hashing.swift */; };
+		60CE5E0421655611005764A3 /* Contextual.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5D7D21655611005764A3 /* Contextual.swift */; };
+		60CE5E0521655611005764A3 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D7E21655611005764A3 /* Info.plist */; };
+		60CE5E0621655611005764A3 /* CatCrypto.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D7F21655611005764A3 /* CatCrypto.xcworkspace */; };
+		60CE5E0721655611005764A3 /* .codebeatignore in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8021655611005764A3 /* .codebeatignore */; };
+		60CE5E0821655611005764A3 /* CatCrypto-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8121655611005764A3 /* CatCrypto-Logo.png */; };
+		60CE5E0921655611005764A3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8221655611005764A3 /* .travis.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -20,6 +137,48 @@
 			remoteGlobalIDString = 60CE5AED2165413E005764A3;
 			remoteInfo = KDBXKit;
 		};
+		60CE5D8821655611005764A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CE5CF521655611005764A3 /* CatCrypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C330B4961FDE93AB005AEECC;
+			remoteInfo = "CatCrypto-iOS";
+		};
+		60CE5D8A21655611005764A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CE5CF521655611005764A3 /* CatCrypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3E273731FE4259D0026655E;
+			remoteInfo = "CatCrypto-macOS";
+		};
+		60CE5D8C21655611005764A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CE5CF521655611005764A3 /* CatCrypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3945E851FE3CBAE009A203D;
+			remoteInfo = "CatCrypto-tvOS";
+		};
+		60CE5D8E21655611005764A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CE5CF521655611005764A3 /* CatCrypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C3945EAD1FE3CE48009A203D;
+			remoteInfo = "CatCrypto-watchOS";
+		};
+		60CE5D9021655611005764A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CE5CF521655611005764A3 /* CatCrypto.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C328B7921FF4DC4900943D75;
+			remoteInfo = "CatCrypto-iOSTests";
+		};
+		60CE5D9321655611005764A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60CE5CE421655610005764A3 /* Example.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = C330B4E41FDEBC99005AEECC;
+			remoteInfo = "Example-iOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +188,133 @@
 		60CE5AF72165413F005764A3 /* KDBXKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDBXKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CE5AFC2165413F005764A3 /* KDBXKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KDBXKitTests.swift; sourceTree = "<group>"; };
 		60CE5AFE2165413F005764A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CE5CE421655610005764A3 /* Example.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Example.xcodeproj; sourceTree = "<group>"; };
+		60CE5CE821655610005764A3 /* .swift-version */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
+		60CE5CEA21655610005764A3 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60CE5CEB21655610005764A3 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		60CE5CEC21655610005764A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60CE5CEE21655610005764A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60CE5CEF21655610005764A3 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		60CE5CF021655610005764A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CE5CF121655610005764A3 /* doc-build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "doc-build.sh"; sourceTree = "<group>"; };
+		60CE5CF221655610005764A3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		60CE5CF321655610005764A3 /* CatCrypto.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CatCrypto.podspec; sourceTree = "<group>"; };
+		60CE5CF421655610005764A3 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		60CE5CF521655611005764A3 /* CatCrypto.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = CatCrypto.xcodeproj; sourceTree = "<group>"; };
+		60CE5CF921655611005764A3 /* MessageDigestCryptoTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDigestCryptoTests.swift; sourceTree = "<group>"; };
+		60CE5CFA21655611005764A3 /* ArgonTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArgonTests.swift; sourceTree = "<group>"; };
+		60CE5CFB21655611005764A3 /* SHATests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHATests.swift; sourceTree = "<group>"; };
+		60CE5CFC21655611005764A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CE5CFE21655611005764A3 /* Structs.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Structs.html; sourceTree = "<group>"; };
+		60CE5CFF21655611005764A3 /* Enums.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Enums.html; sourceTree = "<group>"; };
+		60CE5D0021655611005764A3 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		60CE5D0121655611005764A3 /* search.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = search.json; sourceTree = "<group>"; };
+		60CE5D0321655611005764A3 /* highlight.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = highlight.css; sourceTree = "<group>"; };
+		60CE5D0421655611005764A3 /* jazzy.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = jazzy.css; sourceTree = "<group>"; };
+		60CE5D0621655611005764A3 /* CatCryptoEncryptResult.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatCryptoEncryptResult.html; sourceTree = "<group>"; };
+		60CE5D0721655611005764A3 /* CatMD6Crypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatMD6Crypto.html; sourceTree = "<group>"; };
+		60CE5D0821655611005764A3 /* CatCryptoHashResult.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatCryptoHashResult.html; sourceTree = "<group>"; };
+		60CE5D0921655611005764A3 /* CatCCHashCrypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatCCHashCrypto.html; sourceTree = "<group>"; };
+		60CE5D0A21655611005764A3 /* CatMD4Crypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatMD4Crypto.html; sourceTree = "<group>"; };
+		60CE5D0B21655611005764A3 /* CatArgon2Crypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatArgon2Crypto.html; sourceTree = "<group>"; };
+		60CE5D0C21655611005764A3 /* CatSHA2Crypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatSHA2Crypto.html; sourceTree = "<group>"; };
+		60CE5D0D21655611005764A3 /* CatSHA1Crypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatSHA1Crypto.html; sourceTree = "<group>"; };
+		60CE5D0E21655611005764A3 /* CatCryptoError.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatCryptoError.html; sourceTree = "<group>"; };
+		60CE5D0F21655611005764A3 /* CatCryptoVerifyResult.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatCryptoVerifyResult.html; sourceTree = "<group>"; };
+		60CE5D1021655611005764A3 /* CatMD2Crypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatMD2Crypto.html; sourceTree = "<group>"; };
+		60CE5D1121655611005764A3 /* CatMD5Crypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatMD5Crypto.html; sourceTree = "<group>"; };
+		60CE5D1221655611005764A3 /* CatCryptoDecryptResult.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatCryptoDecryptResult.html; sourceTree = "<group>"; };
+		60CE5D1321655611005764A3 /* CatSHA3Crypto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatSHA3Crypto.html; sourceTree = "<group>"; };
+		60CE5D1421655611005764A3 /* CatCryptoResult.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatCryptoResult.html; sourceTree = "<group>"; };
+		60CE5D1621655611005764A3 /* jquery.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.min.js; sourceTree = "<group>"; };
+		60CE5D1721655611005764A3 /* jazzy.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jazzy.js; sourceTree = "<group>"; };
+		60CE5D1921655611005764A3 /* CatArgon2Mode.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatArgon2Mode.html; sourceTree = "<group>"; };
+		60CE5D1A21655611005764A3 /* CatMD6HashLength.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatMD6HashLength.html; sourceTree = "<group>"; };
+		60CE5D1B21655611005764A3 /* CatSHA3HashLength.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatSHA3HashLength.html; sourceTree = "<group>"; };
+		60CE5D1C21655611005764A3 /* CatSHA2HashLength.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatSHA2HashLength.html; sourceTree = "<group>"; };
+		60CE5D1E21655611005764A3 /* carat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carat.png; sourceTree = "<group>"; };
+		60CE5D1F21655611005764A3 /* dash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dash.png; sourceTree = "<group>"; };
+		60CE5D2021655611005764A3 /* gh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gh.png; sourceTree = "<group>"; };
+		60CE5D2121655611005764A3 /* undocumented.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = undocumented.json; sourceTree = "<group>"; };
+		60CE5D2221655611005764A3 /* badge.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badge.svg; sourceTree = "<group>"; };
+		60CE5D2421655611005764A3 /* CatMD6Context.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatMD6Context.html; sourceTree = "<group>"; };
+		60CE5D2521655611005764A3 /* CatSHA3Context.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatSHA3Context.html; sourceTree = "<group>"; };
+		60CE5D2621655611005764A3 /* CatSHA2Context.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatSHA2Context.html; sourceTree = "<group>"; };
+		60CE5D2721655611005764A3 /* CatArgon2Context.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = CatArgon2Context.html; sourceTree = "<group>"; };
+		60CE5D2821655611005764A3 /* Classes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Classes.html; sourceTree = "<group>"; };
+		60CE5D2A21655611005764A3 /* CatCrypto.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = CatCrypto.xml; sourceTree = "<group>"; };
+		60CE5D2B21655611005764A3 /* CatCrypto.tgz */ = {isa = PBXFileReference; lastKnownFileType = file; path = CatCrypto.tgz; sourceTree = "<group>"; };
+		60CE5D2C21655611005764A3 /* CatCrypto.docset */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = CatCrypto.docset; sourceTree = "<group>"; };
+		60CE5D2D21655611005764A3 /* Protocols.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Protocols.html; sourceTree = "<group>"; };
+		60CE5D2F21655611005764A3 /* Hashing.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Hashing.html; sourceTree = "<group>"; };
+		60CE5D3021655611005764A3 /* Verification.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Verification.html; sourceTree = "<group>"; };
+		60CE5D3121655611005764A3 /* Encryption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Encryption.html; sourceTree = "<group>"; };
+		60CE5D3221655611005764A3 /* Contextual.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Contextual.html; sourceTree = "<group>"; };
+		60CE5D3321655611005764A3 /* Decryption.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Decryption.html; sourceTree = "<group>"; };
+		60CE5D3421655611005764A3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		60CE5D3521655611005764A3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		60CE5D3621655611005764A3 /* CONTRIBUTING.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CONTRIBUTING.md; sourceTree = "<group>"; };
+		60CE5D3821655611005764A3 /* CHANGELOG.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CHANGELOG.md; sourceTree = "<group>"; };
+		60CE5D3921655611005764A3 /* PULL_REQUEST_TEMPLATE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = PULL_REQUEST_TEMPLATE.md; sourceTree = "<group>"; };
+		60CE5D3A21655611005764A3 /* ISSUE_TEMPLATE.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ISSUE_TEMPLATE.md; sourceTree = "<group>"; };
+		60CE5D3D21655611005764A3 /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		60CE5D3E21655611005764A3 /* Crypto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		60CE5D3F21655611005764A3 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		60CE5D4021655611005764A3 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		60CE5D4121655611005764A3 /* CatCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CatCrypto.h; sourceTree = "<group>"; };
+		60CE5D4321655611005764A3 /* MessageDigest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageDigest.swift; sourceTree = "<group>"; };
+		60CE5D4421655611005764A3 /* SHA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SHA.swift; sourceTree = "<group>"; };
+		60CE5D4521655611005764A3 /* Argon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Argon.swift; sourceTree = "<group>"; };
+		60CE5D4921655611005764A3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		60CE5D4B21655611005764A3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		60CE5D4D21655611005764A3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		60CE5D4F21655611005764A3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		60CE5D5121655611005764A3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		60CE5D5321655611005764A3 /* KeccakP-1600-reference.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "KeccakP-1600-reference.c"; sourceTree = "<group>"; };
+		60CE5D5421655611005764A3 /* align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = align.h; sourceTree = "<group>"; };
+		60CE5D5521655611005764A3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		60CE5D5621655611005764A3 /* KeccakSponge.inc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.pascal; path = KeccakSponge.inc; sourceTree = "<group>"; };
+		60CE5D5721655611005764A3 /* SimpleFIPS202.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SimpleFIPS202.c; sourceTree = "<group>"; };
+		60CE5D5821655611005764A3 /* KeccakSpongeWidth1600.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = KeccakSpongeWidth1600.c; sourceTree = "<group>"; };
+		60CE5D5921655611005764A3 /* KeccakP-1600-reference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeccakP-1600-reference.h"; sourceTree = "<group>"; };
+		60CE5D5A21655611005764A3 /* KeccakSponge-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeccakSponge-common.h"; sourceTree = "<group>"; };
+		60CE5D5B21655611005764A3 /* brg_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = brg_endian.h; sourceTree = "<group>"; };
+		60CE5D5C21655611005764A3 /* KeccakP-1600-SnP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KeccakP-1600-SnP.h"; sourceTree = "<group>"; };
+		60CE5D5D21655611005764A3 /* SimpleFIPS202.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFIPS202.h; sourceTree = "<group>"; };
+		60CE5D5E21655611005764A3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		60CE5D5F21655611005764A3 /* KeccakSpongeWidth1600.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeccakSpongeWidth1600.h; sourceTree = "<group>"; };
+		60CE5D6121655611005764A3 /* thread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = thread.c; sourceTree = "<group>"; };
+		60CE5D6221655611005764A3 /* blamka-round-ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blamka-round-ref.h"; sourceTree = "<group>"; };
+		60CE5D6321655611005764A3 /* core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		60CE5D6421655611005764A3 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		60CE5D6521655611005764A3 /* ref.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ref.c; sourceTree = "<group>"; };
+		60CE5D6621655611005764A3 /* argon2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = argon2.h; sourceTree = "<group>"; };
+		60CE5D6721655611005764A3 /* blamka-round-opt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blamka-round-opt.h"; sourceTree = "<group>"; };
+		60CE5D6821655611005764A3 /* encoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encoding.h; sourceTree = "<group>"; };
+		60CE5D6921655611005764A3 /* core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = core.c; sourceTree = "<group>"; };
+		60CE5D6A21655611005764A3 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		60CE5D6B21655611005764A3 /* blake2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blake2.h; sourceTree = "<group>"; };
+		60CE5D6C21655611005764A3 /* blake2b.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = blake2b.c; sourceTree = "<group>"; };
+		60CE5D6D21655611005764A3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		60CE5D6E21655611005764A3 /* argon2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = argon2.c; sourceTree = "<group>"; };
+		60CE5D6F21655611005764A3 /* ref.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ref.h; sourceTree = "<group>"; };
+		60CE5D7021655611005764A3 /* blake2-impl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "blake2-impl.h"; sourceTree = "<group>"; };
+		60CE5D7121655611005764A3 /* encoding.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encoding.c; sourceTree = "<group>"; };
+		60CE5D7321655611005764A3 /* md6_mode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md6_mode.c; sourceTree = "<group>"; };
+		60CE5D7421655611005764A3 /* md6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md6.h; sourceTree = "<group>"; };
+		60CE5D7521655611005764A3 /* md6_compress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md6_compress.c; sourceTree = "<group>"; };
+		60CE5D7621655611005764A3 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		60CE5D7821655611005764A3 /* Decryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decryption.swift; sourceTree = "<group>"; };
+		60CE5D7921655611005764A3 /* EnumDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumDescription.swift; sourceTree = "<group>"; };
+		60CE5D7A21655611005764A3 /* Verification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
+		60CE5D7B21655611005764A3 /* Encryption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		60CE5D7C21655611005764A3 /* Hashing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hashing.swift; sourceTree = "<group>"; };
+		60CE5D7D21655611005764A3 /* Contextual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contextual.swift; sourceTree = "<group>"; };
+		60CE5D7E21655611005764A3 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CE5D7F21655611005764A3 /* CatCrypto.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; path = CatCrypto.xcworkspace; sourceTree = "<group>"; };
+		60CE5D8021655611005764A3 /* .codebeatignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .codebeatignore; sourceTree = "<group>"; };
+		60CE5D8121655611005764A3 /* CatCrypto-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CatCrypto-Logo.png"; sourceTree = "<group>"; };
+		60CE5D8221655611005764A3 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,8 +392,371 @@
 		60CE5B0A216552D1005764A3 /* Argon2 */ = {
 			isa = PBXGroup;
 			children = (
+				60CE5CE321655610005764A3 /* CatCrypto */,
 			);
 			path = Argon2;
+			sourceTree = "<group>";
+		};
+		60CE5CE321655610005764A3 /* CatCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5CE421655610005764A3 /* Example.xcodeproj */,
+				60CE5CE821655610005764A3 /* .swift-version */,
+				60CE5CE921655610005764A3 /* Example-iOS */,
+				60CE5CF121655610005764A3 /* doc-build.sh */,
+				60CE5CF221655610005764A3 /* LICENSE */,
+				60CE5CF321655610005764A3 /* CatCrypto.podspec */,
+				60CE5CF421655610005764A3 /* .swiftlint.yml */,
+				60CE5CF521655611005764A3 /* CatCrypto.xcodeproj */,
+				60CE5CF821655611005764A3 /* CatCrypto-iOSTests */,
+				60CE5CFD21655611005764A3 /* docs */,
+				60CE5D3421655611005764A3 /* README.md */,
+				60CE5D3521655611005764A3 /* .gitignore */,
+				60CE5D3621655611005764A3 /* CONTRIBUTING.md */,
+				60CE5D3721655611005764A3 /* .github */,
+				60CE5D3B21655611005764A3 /* Sources */,
+				60CE5D7F21655611005764A3 /* CatCrypto.xcworkspace */,
+				60CE5D8021655611005764A3 /* .codebeatignore */,
+				60CE5D8121655611005764A3 /* CatCrypto-Logo.png */,
+				60CE5D8221655611005764A3 /* .travis.yml */,
+			);
+			path = CatCrypto;
+			sourceTree = "<group>";
+		};
+		60CE5CE521655610005764A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D9421655611005764A3 /* Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CE5CE921655610005764A3 /* Example-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5CEA21655610005764A3 /* LaunchScreen.storyboard */,
+				60CE5CEB21655610005764A3 /* RootViewController.swift */,
+				60CE5CEC21655610005764A3 /* Assets.xcassets */,
+				60CE5CED21655610005764A3 /* Main.storyboard */,
+				60CE5CEF21655610005764A3 /* AppDelegate.swift */,
+				60CE5CF021655610005764A3 /* Info.plist */,
+			);
+			path = "Example-iOS";
+			sourceTree = "<group>";
+		};
+		60CE5CF621655611005764A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D8921655611005764A3 /* CatCrypto.framework */,
+				60CE5D8B21655611005764A3 /* CatCrypto.framework */,
+				60CE5D8D21655611005764A3 /* CatCrypto.framework */,
+				60CE5D8F21655611005764A3 /* CatCrypto.framework */,
+				60CE5D9121655611005764A3 /* CatCrypto-iOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60CE5CF821655611005764A3 /* CatCrypto-iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5CF921655611005764A3 /* MessageDigestCryptoTests.swift */,
+				60CE5CFA21655611005764A3 /* ArgonTests.swift */,
+				60CE5CFB21655611005764A3 /* SHATests.swift */,
+				60CE5CFC21655611005764A3 /* Info.plist */,
+			);
+			path = "CatCrypto-iOSTests";
+			sourceTree = "<group>";
+		};
+		60CE5CFD21655611005764A3 /* docs */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5CFE21655611005764A3 /* Structs.html */,
+				60CE5CFF21655611005764A3 /* Enums.html */,
+				60CE5D0021655611005764A3 /* index.html */,
+				60CE5D0121655611005764A3 /* search.json */,
+				60CE5D0221655611005764A3 /* css */,
+				60CE5D0521655611005764A3 /* Classes */,
+				60CE5D1521655611005764A3 /* js */,
+				60CE5D1821655611005764A3 /* Enums */,
+				60CE5D1D21655611005764A3 /* img */,
+				60CE5D2121655611005764A3 /* undocumented.json */,
+				60CE5D2221655611005764A3 /* badge.svg */,
+				60CE5D2321655611005764A3 /* Structs */,
+				60CE5D2821655611005764A3 /* Classes.html */,
+				60CE5D2921655611005764A3 /* docsets */,
+				60CE5D2D21655611005764A3 /* Protocols.html */,
+				60CE5D2E21655611005764A3 /* Protocols */,
+			);
+			path = docs;
+			sourceTree = "<group>";
+		};
+		60CE5D0221655611005764A3 /* css */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D0321655611005764A3 /* highlight.css */,
+				60CE5D0421655611005764A3 /* jazzy.css */,
+			);
+			path = css;
+			sourceTree = "<group>";
+		};
+		60CE5D0521655611005764A3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D0621655611005764A3 /* CatCryptoEncryptResult.html */,
+				60CE5D0721655611005764A3 /* CatMD6Crypto.html */,
+				60CE5D0821655611005764A3 /* CatCryptoHashResult.html */,
+				60CE5D0921655611005764A3 /* CatCCHashCrypto.html */,
+				60CE5D0A21655611005764A3 /* CatMD4Crypto.html */,
+				60CE5D0B21655611005764A3 /* CatArgon2Crypto.html */,
+				60CE5D0C21655611005764A3 /* CatSHA2Crypto.html */,
+				60CE5D0D21655611005764A3 /* CatSHA1Crypto.html */,
+				60CE5D0E21655611005764A3 /* CatCryptoError.html */,
+				60CE5D0F21655611005764A3 /* CatCryptoVerifyResult.html */,
+				60CE5D1021655611005764A3 /* CatMD2Crypto.html */,
+				60CE5D1121655611005764A3 /* CatMD5Crypto.html */,
+				60CE5D1221655611005764A3 /* CatCryptoDecryptResult.html */,
+				60CE5D1321655611005764A3 /* CatSHA3Crypto.html */,
+				60CE5D1421655611005764A3 /* CatCryptoResult.html */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		60CE5D1521655611005764A3 /* js */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D1621655611005764A3 /* jquery.min.js */,
+				60CE5D1721655611005764A3 /* jazzy.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		60CE5D1821655611005764A3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D1921655611005764A3 /* CatArgon2Mode.html */,
+				60CE5D1A21655611005764A3 /* CatMD6HashLength.html */,
+				60CE5D1B21655611005764A3 /* CatSHA3HashLength.html */,
+				60CE5D1C21655611005764A3 /* CatSHA2HashLength.html */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		60CE5D1D21655611005764A3 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D1E21655611005764A3 /* carat.png */,
+				60CE5D1F21655611005764A3 /* dash.png */,
+				60CE5D2021655611005764A3 /* gh.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+		60CE5D2321655611005764A3 /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D2421655611005764A3 /* CatMD6Context.html */,
+				60CE5D2521655611005764A3 /* CatSHA3Context.html */,
+				60CE5D2621655611005764A3 /* CatSHA2Context.html */,
+				60CE5D2721655611005764A3 /* CatArgon2Context.html */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		60CE5D2921655611005764A3 /* docsets */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D2A21655611005764A3 /* CatCrypto.xml */,
+				60CE5D2B21655611005764A3 /* CatCrypto.tgz */,
+				60CE5D2C21655611005764A3 /* CatCrypto.docset */,
+			);
+			path = docsets;
+			sourceTree = "<group>";
+		};
+		60CE5D2E21655611005764A3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D2F21655611005764A3 /* Hashing.html */,
+				60CE5D3021655611005764A3 /* Verification.html */,
+				60CE5D3121655611005764A3 /* Encryption.html */,
+				60CE5D3221655611005764A3 /* Contextual.html */,
+				60CE5D3321655611005764A3 /* Decryption.html */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		60CE5D3721655611005764A3 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D3821655611005764A3 /* CHANGELOG.md */,
+				60CE5D3921655611005764A3 /* PULL_REQUEST_TEMPLATE.md */,
+				60CE5D3A21655611005764A3 /* ISSUE_TEMPLATE.md */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		60CE5D3B21655611005764A3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D3C21655611005764A3 /* Core */,
+				60CE5D4121655611005764A3 /* CatCrypto.h */,
+				60CE5D4221655611005764A3 /* Cryptos */,
+				60CE5D4621655611005764A3 /* ModuleMaps */,
+				60CE5D7721655611005764A3 /* Protocols */,
+				60CE5D7E21655611005764A3 /* Info.plist */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		60CE5D3C21655611005764A3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D3D21655611005764A3 /* ArrayExtension.swift */,
+				60CE5D3E21655611005764A3 /* Crypto.swift */,
+				60CE5D3F21655611005764A3 /* StringExtension.swift */,
+				60CE5D4021655611005764A3 /* Helper.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		60CE5D4221655611005764A3 /* Cryptos */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D4321655611005764A3 /* MessageDigest.swift */,
+				60CE5D4421655611005764A3 /* SHA.swift */,
+				60CE5D4521655611005764A3 /* Argon.swift */,
+			);
+			path = Cryptos;
+			sourceTree = "<group>";
+		};
+		60CE5D4621655611005764A3 /* ModuleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D4721655611005764A3 /* CommonCrypto */,
+				60CE5D5221655611005764A3 /* SHA3 */,
+				60CE5D6021655611005764A3 /* Argon2 */,
+				60CE5D7221655611005764A3 /* MD6 */,
+			);
+			path = ModuleMaps;
+			sourceTree = "<group>";
+		};
+		60CE5D4721655611005764A3 /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D4821655611005764A3 /* AppleTVSimulator */,
+				60CE5D4A21655611005764A3 /* WatchOS */,
+				60CE5D4C21655611005764A3 /* AppleTVOS */,
+				60CE5D4E21655611005764A3 /* WatchSimulator */,
+				60CE5D5021655611005764A3 /* MacOSX */,
+			);
+			path = CommonCrypto;
+			sourceTree = "<group>";
+		};
+		60CE5D4821655611005764A3 /* AppleTVSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D4921655611005764A3 /* module.modulemap */,
+			);
+			path = AppleTVSimulator;
+			sourceTree = "<group>";
+		};
+		60CE5D4A21655611005764A3 /* WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D4B21655611005764A3 /* module.modulemap */,
+			);
+			path = WatchOS;
+			sourceTree = "<group>";
+		};
+		60CE5D4C21655611005764A3 /* AppleTVOS */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D4D21655611005764A3 /* module.modulemap */,
+			);
+			path = AppleTVOS;
+			sourceTree = "<group>";
+		};
+		60CE5D4E21655611005764A3 /* WatchSimulator */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D4F21655611005764A3 /* module.modulemap */,
+			);
+			path = WatchSimulator;
+			sourceTree = "<group>";
+		};
+		60CE5D5021655611005764A3 /* MacOSX */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D5121655611005764A3 /* module.modulemap */,
+			);
+			path = MacOSX;
+			sourceTree = "<group>";
+		};
+		60CE5D5221655611005764A3 /* SHA3 */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D5321655611005764A3 /* KeccakP-1600-reference.c */,
+				60CE5D5421655611005764A3 /* align.h */,
+				60CE5D5521655611005764A3 /* LICENSE */,
+				60CE5D5621655611005764A3 /* KeccakSponge.inc */,
+				60CE5D5721655611005764A3 /* SimpleFIPS202.c */,
+				60CE5D5821655611005764A3 /* KeccakSpongeWidth1600.c */,
+				60CE5D5921655611005764A3 /* KeccakP-1600-reference.h */,
+				60CE5D5A21655611005764A3 /* KeccakSponge-common.h */,
+				60CE5D5B21655611005764A3 /* brg_endian.h */,
+				60CE5D5C21655611005764A3 /* KeccakP-1600-SnP.h */,
+				60CE5D5D21655611005764A3 /* SimpleFIPS202.h */,
+				60CE5D5E21655611005764A3 /* module.modulemap */,
+				60CE5D5F21655611005764A3 /* KeccakSpongeWidth1600.h */,
+			);
+			path = SHA3;
+			sourceTree = "<group>";
+		};
+		60CE5D6021655611005764A3 /* Argon2 */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D6121655611005764A3 /* thread.c */,
+				60CE5D6221655611005764A3 /* blamka-round-ref.h */,
+				60CE5D6321655611005764A3 /* core.h */,
+				60CE5D6421655611005764A3 /* LICENSE */,
+				60CE5D6521655611005764A3 /* ref.c */,
+				60CE5D6621655611005764A3 /* argon2.h */,
+				60CE5D6721655611005764A3 /* blamka-round-opt.h */,
+				60CE5D6821655611005764A3 /* encoding.h */,
+				60CE5D6921655611005764A3 /* core.c */,
+				60CE5D6A21655611005764A3 /* thread.h */,
+				60CE5D6B21655611005764A3 /* blake2.h */,
+				60CE5D6C21655611005764A3 /* blake2b.c */,
+				60CE5D6D21655611005764A3 /* module.modulemap */,
+				60CE5D6E21655611005764A3 /* argon2.c */,
+				60CE5D6F21655611005764A3 /* ref.h */,
+				60CE5D7021655611005764A3 /* blake2-impl.h */,
+				60CE5D7121655611005764A3 /* encoding.c */,
+			);
+			path = Argon2;
+			sourceTree = "<group>";
+		};
+		60CE5D7221655611005764A3 /* MD6 */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D7321655611005764A3 /* md6_mode.c */,
+				60CE5D7421655611005764A3 /* md6.h */,
+				60CE5D7521655611005764A3 /* md6_compress.c */,
+				60CE5D7621655611005764A3 /* module.modulemap */,
+			);
+			path = MD6;
+			sourceTree = "<group>";
+		};
+		60CE5D7721655611005764A3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5D7821655611005764A3 /* Decryption.swift */,
+				60CE5D7921655611005764A3 /* EnumDescription.swift */,
+				60CE5D7A21655611005764A3 /* Verification.swift */,
+				60CE5D7B21655611005764A3 /* Encryption.swift */,
+				60CE5D7C21655611005764A3 /* Hashing.swift */,
+				60CE5D7D21655611005764A3 /* Contextual.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,7 +766,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CE5DE721655611005764A3 /* KeccakSponge-common.h in Headers */,
+				60CE5DEE21655611005764A3 /* core.h in Headers */,
+				60CE5DE621655611005764A3 /* KeccakP-1600-reference.h in Headers */,
+				60CE5DF321655611005764A3 /* encoding.h in Headers */,
+				60CE5DF121655611005764A3 /* argon2.h in Headers */,
+				60CE5DE121655611005764A3 /* align.h in Headers */,
+				60CE5DED21655611005764A3 /* blamka-round-ref.h in Headers */,
+				60CE5DEB21655611005764A3 /* KeccakSpongeWidth1600.h in Headers */,
+				60CE5DF221655611005764A3 /* blamka-round-opt.h in Headers */,
+				60CE5DE921655611005764A3 /* KeccakP-1600-SnP.h in Headers */,
+				60CE5DDC21655611005764A3 /* CatCrypto.h in Headers */,
+				60CE5DEA21655611005764A3 /* SimpleFIPS202.h in Headers */,
+				60CE5DFD21655611005764A3 /* md6.h in Headers */,
+				60CE5DF521655611005764A3 /* thread.h in Headers */,
 				60CE5AFF2165413F005764A3 /* KDBXKit.h in Headers */,
+				60CE5DF921655611005764A3 /* ref.h in Headers */,
+				60CE5DE821655611005764A3 /* brg_endian.h in Headers */,
+				60CE5DF621655611005764A3 /* blake2.h in Headers */,
+				60CE5DFA21655611005764A3 /* blake2-impl.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,10 +851,21 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 60CE5AE42165413E005764A3;
 			productRefGroup = 60CE5AEF2165413E005764A3 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 60CE5CF621655611005764A3 /* Products */;
+					ProjectRef = 60CE5CF521655611005764A3 /* CatCrypto.xcodeproj */;
+				},
+				{
+					ProductGroup = 60CE5CE521655610005764A3 /* Products */;
+					ProjectRef = 60CE5CE421655610005764A3 /* Example.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				60CE5AED2165413E005764A3 /* KDBXKit */,
@@ -196,11 +874,125 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		60CE5D8921655611005764A3 /* CatCrypto.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CatCrypto.framework;
+			remoteRef = 60CE5D8821655611005764A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60CE5D8B21655611005764A3 /* CatCrypto.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CatCrypto.framework;
+			remoteRef = 60CE5D8A21655611005764A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60CE5D8D21655611005764A3 /* CatCrypto.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CatCrypto.framework;
+			remoteRef = 60CE5D8C21655611005764A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60CE5D8F21655611005764A3 /* CatCrypto.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CatCrypto.framework;
+			remoteRef = 60CE5D8E21655611005764A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60CE5D9121655611005764A3 /* CatCrypto-iOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "CatCrypto-iOSTests.xctest";
+			remoteRef = 60CE5D9021655611005764A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		60CE5D9421655611005764A3 /* Example.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Example.app;
+			remoteRef = 60CE5D9321655611005764A3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		60CE5AEC2165413E005764A3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CE5DC221655611005764A3 /* undocumented.json in Resources */,
+				60CE5DC421655611005764A3 /* CatMD6Context.html in Resources */,
+				60CE5DC121655611005764A3 /* gh.png in Resources */,
+				60CE5D9F21655611005764A3 /* .swiftlint.yml in Resources */,
+				60CE5DD621655611005764A3 /* PULL_REQUEST_TEMPLATE.md in Resources */,
+				60CE5D9521655611005764A3 /* .swift-version in Resources */,
+				60CE5DAB21655611005764A3 /* CatMD6Crypto.html in Resources */,
+				60CE5DCC21655611005764A3 /* Protocols.html in Resources */,
+				60CE5E0821655611005764A3 /* CatCrypto-Logo.png in Resources */,
+				60CE5DC821655611005764A3 /* Classes.html in Resources */,
+				60CE5DBB21655611005764A3 /* CatArgon2Mode.html in Resources */,
+				60CE5DEF21655611005764A3 /* LICENSE in Resources */,
+				60CE5DB421655611005764A3 /* CatMD2Crypto.html in Resources */,
+				60CE5DB621655611005764A3 /* CatCryptoDecryptResult.html in Resources */,
+				60CE5DD721655611005764A3 /* ISSUE_TEMPLATE.md in Resources */,
+				60CE5DB021655611005764A3 /* CatSHA2Crypto.html in Resources */,
+				60CE5DC521655611005764A3 /* CatSHA3Context.html in Resources */,
+				60CE5D9821655611005764A3 /* Assets.xcassets in Resources */,
+				60CE5DA621655611005764A3 /* index.html in Resources */,
+				60CE5DAA21655611005764A3 /* CatCryptoEncryptResult.html in Resources */,
+				60CE5D9C21655611005764A3 /* doc-build.sh in Resources */,
+				60CE5DB921655611005764A3 /* jquery.min.js in Resources */,
+				60CE5DCB21655611005764A3 /* CatCrypto.docset in Resources */,
+				60CE5DD121655611005764A3 /* Decryption.html in Resources */,
+				60CE5DC621655611005764A3 /* CatSHA2Context.html in Resources */,
+				60CE5DAE21655611005764A3 /* CatMD4Crypto.html in Resources */,
+				60CE5DE221655611005764A3 /* LICENSE in Resources */,
+				60CE5E0921655611005764A3 /* .travis.yml in Resources */,
+				60CE5DCD21655611005764A3 /* Hashing.html in Resources */,
+				60CE5DB821655611005764A3 /* CatCryptoResult.html in Resources */,
+				60CE5E0621655611005764A3 /* CatCrypto.xcworkspace in Resources */,
+				60CE5DC021655611005764A3 /* dash.png in Resources */,
+				60CE5DC921655611005764A3 /* CatCrypto.xml in Resources */,
+				60CE5DD021655611005764A3 /* Contextual.html in Resources */,
+				60CE5DC721655611005764A3 /* CatArgon2Context.html in Resources */,
+				60CE5D9D21655611005764A3 /* LICENSE in Resources */,
+				60CE5D9621655611005764A3 /* LaunchScreen.storyboard in Resources */,
+				60CE5DD321655611005764A3 /* .gitignore in Resources */,
+				60CE5DD521655611005764A3 /* CHANGELOG.md in Resources */,
+				60CE5DB121655611005764A3 /* CatSHA1Crypto.html in Resources */,
+				60CE5DA421655611005764A3 /* Structs.html in Resources */,
+				60CE5E0521655611005764A3 /* Info.plist in Resources */,
+				60CE5DAF21655611005764A3 /* CatArgon2Crypto.html in Resources */,
+				60CE5DB521655611005764A3 /* CatMD5Crypto.html in Resources */,
+				60CE5E0721655611005764A3 /* .codebeatignore in Resources */,
+				60CE5DB721655611005764A3 /* CatSHA3Crypto.html in Resources */,
+				60CE5DBC21655611005764A3 /* CatMD6HashLength.html in Resources */,
+				60CE5DAD21655611005764A3 /* CatCCHashCrypto.html in Resources */,
+				60CE5DA921655611005764A3 /* jazzy.css in Resources */,
+				60CE5D9B21655611005764A3 /* Info.plist in Resources */,
+				60CE5DCA21655611005764A3 /* CatCrypto.tgz in Resources */,
+				60CE5DA821655611005764A3 /* highlight.css in Resources */,
+				60CE5DD421655611005764A3 /* CONTRIBUTING.md in Resources */,
+				60CE5DBD21655611005764A3 /* CatSHA3HashLength.html in Resources */,
+				60CE5DC321655611005764A3 /* badge.svg in Resources */,
+				60CE5DCF21655611005764A3 /* Encryption.html in Resources */,
+				60CE5DBF21655611005764A3 /* carat.png in Resources */,
+				60CE5DBE21655611005764A3 /* CatSHA2HashLength.html in Resources */,
+				60CE5DA721655611005764A3 /* search.json in Resources */,
+				60CE5DB221655611005764A3 /* CatCryptoError.html in Resources */,
+				60CE5D9E21655611005764A3 /* CatCrypto.podspec in Resources */,
+				60CE5DA521655611005764A3 /* Enums.html in Resources */,
+				60CE5DBA21655611005764A3 /* jazzy.js in Resources */,
+				60CE5DD221655611005764A3 /* README.md in Resources */,
+				60CE5DB321655611005764A3 /* CatCryptoVerifyResult.html in Resources */,
+				60CE5DA321655611005764A3 /* Info.plist in Resources */,
+				60CE5DCE21655611005764A3 /* Verification.html in Resources */,
+				60CE5D9921655611005764A3 /* Main.storyboard in Resources */,
+				60CE5DAC21655611005764A3 /* CatCryptoHashResult.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,6 +1010,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60CE5DE321655611005764A3 /* KeccakSponge.inc in Sources */,
+				60CE5D9A21655611005764A3 /* AppDelegate.swift in Sources */,
+				60CE5DDD21655611005764A3 /* MessageDigest.swift in Sources */,
+				60CE5DA121655611005764A3 /* ArgonTests.swift in Sources */,
+				60CE5DFB21655611005764A3 /* encoding.c in Sources */,
+				60CE5D9721655611005764A3 /* RootViewController.swift in Sources */,
+				60CE5E0421655611005764A3 /* Contextual.swift in Sources */,
+				60CE5E0221655611005764A3 /* Encryption.swift in Sources */,
+				60CE5E0121655611005764A3 /* Verification.swift in Sources */,
+				60CE5DD821655611005764A3 /* ArrayExtension.swift in Sources */,
+				60CE5DDF21655611005764A3 /* Argon.swift in Sources */,
+				60CE5DDA21655611005764A3 /* StringExtension.swift in Sources */,
+				60CE5E0021655611005764A3 /* EnumDescription.swift in Sources */,
+				60CE5DE021655611005764A3 /* KeccakP-1600-reference.c in Sources */,
+				60CE5DF421655611005764A3 /* core.c in Sources */,
+				60CE5DF021655611005764A3 /* ref.c in Sources */,
+				60CE5DDB21655611005764A3 /* Helper.swift in Sources */,
+				60CE5DDE21655611005764A3 /* SHA.swift in Sources */,
+				60CE5DF721655611005764A3 /* blake2b.c in Sources */,
+				60CE5DA221655611005764A3 /* SHATests.swift in Sources */,
+				60CE5DD921655611005764A3 /* Crypto.swift in Sources */,
+				60CE5E0321655611005764A3 /* Hashing.swift in Sources */,
+				60CE5DFE21655611005764A3 /* md6_compress.c in Sources */,
+				60CE5DE521655611005764A3 /* KeccakSpongeWidth1600.c in Sources */,
+				60CE5DF821655611005764A3 /* argon2.c in Sources */,
+				60CE5DFF21655611005764A3 /* Decryption.swift in Sources */,
+				60CE5DFC21655611005764A3 /* md6_mode.c in Sources */,
+				60CE5DEC21655611005764A3 /* thread.c in Sources */,
+				60CE5DE421655611005764A3 /* SimpleFIPS202.c in Sources */,
+				60CE5DA021655611005764A3 /* MessageDigestCryptoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +1060,17 @@
 			targetProxy = 60CE5AF92165413F005764A3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60CE5CED21655610005764A3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60CE5CEE21655610005764A3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		60CE5B002165413F005764A3 /* Debug */ = {
@@ -415,6 +1248,7 @@
 		60CE5B062165413F005764A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG8ZVAW5U5;
 				INFOPLIST_FILE = KDBXKitTests/Info.plist;
@@ -433,6 +1267,7 @@
 		60CE5B072165413F005764A3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VG8ZVAW5U5;
 				INFOPLIST_FILE = KDBXKitTests/Info.plist;
