@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3005052C0FC0D133685F9104 /* Pods_KDBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828EF313E3388E5E472F53C1 /* Pods_KDBXKit.framework */; };
 		60CE5AF82165413F005764A3 /* KDBXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CE5AEE2165413E005764A3 /* KDBXKit.framework */; };
 		60CE5AFD2165413F005764A3 /* KDBXKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CE5AFC2165413F005764A3 /* KDBXKitTests.swift */; };
 		60CE5AFF2165413F005764A3 /* KDBXKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 60CE5AF12165413E005764A3 /* KDBXKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -127,6 +128,7 @@
 		60CE5E0721655611005764A3 /* .codebeatignore in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8021655611005764A3 /* .codebeatignore */; };
 		60CE5E0821655611005764A3 /* CatCrypto-Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8121655611005764A3 /* CatCrypto-Logo.png */; };
 		60CE5E0921655611005764A3 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 60CE5D8221655611005764A3 /* .travis.yml */; };
+		EAD5CEF4F460CAB9673874A1 /* Pods_KDBXKitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A8320B2DAB729A93E9D7407 /* Pods_KDBXKitTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +184,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15C837B52D3DB42C3B95C740 /* Pods-KDBXKitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDBXKitTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KDBXKitTests/Pods-KDBXKitTests.release.xcconfig"; sourceTree = "<group>"; };
+		2A8320B2DAB729A93E9D7407 /* Pods_KDBXKitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDBXKitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CE5AEE2165413E005764A3 /* KDBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KDBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		60CE5AF12165413E005764A3 /* KDBXKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KDBXKit.h; sourceTree = "<group>"; };
 		60CE5AF22165413E005764A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -315,6 +319,10 @@
 		60CE5D8021655611005764A3 /* .codebeatignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .codebeatignore; sourceTree = "<group>"; };
 		60CE5D8121655611005764A3 /* CatCrypto-Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "CatCrypto-Logo.png"; sourceTree = "<group>"; };
 		60CE5D8221655611005764A3 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		828EF313E3388E5E472F53C1 /* Pods_KDBXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KDBXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAE40E1A0C0CBF08C739E65 /* Pods-KDBXKitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDBXKitTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KDBXKitTests/Pods-KDBXKitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C94F6C038AC9E4967418D493 /* Pods-KDBXKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDBXKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KDBXKit/Pods-KDBXKit.debug.xcconfig"; sourceTree = "<group>"; };
+		F0CA52885C22759C6DE90DAA /* Pods-KDBXKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KDBXKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-KDBXKit/Pods-KDBXKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -322,6 +330,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3005052C0FC0D133685F9104 /* Pods_KDBXKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60CE5AF82165413F005764A3 /* KDBXKit.framework in Frameworks */,
+				EAD5CEF4F460CAB9673874A1 /* Pods_KDBXKitTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +353,8 @@
 				60CE5AF02165413E005764A3 /* KDBXKit */,
 				60CE5AFB2165413F005764A3 /* KDBXKitTests */,
 				60CE5AEF2165413E005764A3 /* Products */,
+				9345ADDAE24C20C707AF7A83 /* Pods */,
+				929ABE077C3968A034585A16 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -376,7 +388,7 @@
 		60CE5B0821654761005764A3 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				60CE5B0A216552D1005764A3 /* Argon2 */,
+				60CE5E1121655F1E005764A3 /* Crypto */,
 				60CE5B0921654772005764A3 /* Core */,
 			);
 			path = Sources;
@@ -759,6 +771,34 @@
 			path = Protocols;
 			sourceTree = "<group>";
 		};
+		60CE5E1121655F1E005764A3 /* Crypto */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5B0A216552D1005764A3 /* Argon2 */,
+			);
+			path = Crypto;
+			sourceTree = "<group>";
+		};
+		929ABE077C3968A034585A16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				828EF313E3388E5E472F53C1 /* Pods_KDBXKit.framework */,
+				2A8320B2DAB729A93E9D7407 /* Pods_KDBXKitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9345ADDAE24C20C707AF7A83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C94F6C038AC9E4967418D493 /* Pods-KDBXKit.debug.xcconfig */,
+				F0CA52885C22759C6DE90DAA /* Pods-KDBXKit.release.xcconfig */,
+				9AAE40E1A0C0CBF08C739E65 /* Pods-KDBXKitTests.debug.xcconfig */,
+				15C837B52D3DB42C3B95C740 /* Pods-KDBXKitTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -795,6 +835,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60CE5B022165413F005764A3 /* Build configuration list for PBXNativeTarget "KDBXKit" */;
 			buildPhases = (
+				6BE5BEE79713F4D374859AE2 /* [CP] Check Pods Manifest.lock */,
 				60CE5AE92165413E005764A3 /* Headers */,
 				60CE5AEA2165413E005764A3 /* Sources */,
 				60CE5AEB2165413E005764A3 /* Frameworks */,
@@ -813,9 +854,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 60CE5B052165413F005764A3 /* Build configuration list for PBXNativeTarget "KDBXKitTests" */;
 			buildPhases = (
+				8D675370B9D6F240B7A4A4E8 /* [CP] Check Pods Manifest.lock */,
 				60CE5AF32165413F005764A3 /* Sources */,
 				60CE5AF42165413F005764A3 /* Frameworks */,
 				60CE5AF52165413F005764A3 /* Resources */,
+				F306A1D1434016AEA656E4EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1004,6 +1047,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6BE5BEE79713F4D374859AE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDBXKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D675370B9D6F240B7A4A4E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KDBXKitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F306A1D1434016AEA656E4EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KDBXKitTests/Pods-KDBXKitTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KissXML/KissXML.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KissXML.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KDBXKitTests/Pods-KDBXKitTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		60CE5AEA2165413E005764A3 /* Sources */ = {
@@ -1197,6 +1309,7 @@
 		};
 		60CE5B032165413F005764A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C94F6C038AC9E4967418D493 /* Pods-KDBXKit.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1222,6 +1335,7 @@
 		};
 		60CE5B042165413F005764A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0CA52885C22759C6DE90DAA /* Pods-KDBXKit.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
@@ -1247,6 +1361,7 @@
 		};
 		60CE5B062165413F005764A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAE40E1A0C0CBF08C739E65 /* Pods-KDBXKitTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1266,6 +1381,7 @@
 		};
 		60CE5B072165413F005764A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15C837B52D3DB42C3B95C740 /* Pods-KDBXKitTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

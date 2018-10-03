@@ -4,10 +4,23 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>KDBXKit.xcscheme</key>
+		<key>KDBXKit.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>60CE5AED2165413E005764A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>60CE5AF62165413F005764A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
