@@ -53,6 +53,7 @@
 		60CE5AE42165413E005764A3 = {
 			isa = PBXGroup;
 			children = (
+				60CE5B0821654761005764A3 /* Sources */,
 				60CE5AF02165413E005764A3 /* KDBXKit */,
 				60CE5AFB2165413F005764A3 /* KDBXKitTests */,
 				60CE5AEF2165413E005764A3 /* Products */,
@@ -84,6 +85,21 @@
 				60CE5AFE2165413F005764A3 /* Info.plist */,
 			);
 			path = KDBXKitTests;
+			sourceTree = "<group>";
+		};
+		60CE5B0821654761005764A3 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				60CE5B0921654772005764A3 /* Core */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		60CE5B0921654772005764A3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
